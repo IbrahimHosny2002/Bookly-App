@@ -12,7 +12,10 @@ class SemilarBookListView extends StatelessWidget {
           itemCount: 10,
           scrollDirection: Axis.horizontal,
           itemBuilder: (context, index) {
-            return const CustomBookImage();
+            return const CustomBookImage(
+              imageUrl:
+                  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP4UoDmfRSzOGCtxcAejF3EBk8dgcmpytu9tV49A0yqw&s',
+            );
           }),
     );
   }
