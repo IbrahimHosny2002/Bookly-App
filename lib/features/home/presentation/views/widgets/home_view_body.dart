@@ -32,6 +32,9 @@ class HomeViewBody extends StatelessWidget {
                 padding: EdgeInsets.symmetric(horizontal: 30),
                 child: Text('Newest Box', style: Styles.textStyle18),
               ),
+              SizedBox(
+                height: 20,
+              ),
             ],
           ),
         ),
